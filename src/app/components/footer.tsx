@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="bg-maroon">
+    <footer className="bg-maroon">
       <div className="px-4 py-6 md:py-16 md:px-12">
         <h1 className="text-xl md:text-3xl">Contact Me</h1>
         <p className="py-4 md:py-8">
@@ -16,6 +16,6 @@ export default function Footer() {
           Send me a message via my <a className="underline">contact form!</a>
         </p>
       </div>
-    </div>
+    </footer>
   );
 }
