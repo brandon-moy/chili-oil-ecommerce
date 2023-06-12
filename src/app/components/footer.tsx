@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="bg-maroon">
-      <div className="px-4 py-6 md:py-16 md:px-12">
+      <div className="px-4 py-6 text-white md:py-16 md:px-12">
         <h1 className="text-xl md:text-3xl">Contact Me</h1>
         <p className="py-4 md:py-8">
           <a
