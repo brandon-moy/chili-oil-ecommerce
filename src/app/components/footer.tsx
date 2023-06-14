@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-maroon">
@@ -13,7 +15,10 @@ export default function Footer() {
         </p>
         {/* {Fix contact form text to link after creating page} */}
         <p className="text-sm md:text-lg">
-          Send me a message via my <a className="underline">contact form!</a>
+          Send me a message via my{" "}
+          <Link href="/contact-us" className="underline">
+            contact form!
+          </Link>
         </p>
       </div>
     </footer>
